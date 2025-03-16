@@ -3,17 +3,17 @@
     <div class="small-card"> 
     
         <div class="small-card-photo"> 
-            <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2019/11/14/casas-de-madeira-com-facada-reta.jpg" alt="">
+            <img src={{smallphotoCover}} alt="">
         </div>
             
         <div class="small-card-content">
             <div class="small-card-title"> 
-                <h1><a href="#"> Título para a Caixa</a></h1>
+                <h1><a [routerLink]="['/content', id]">{{ smallCardTitle }}</a></h1>
+
             </div>
                 
             <div class="small-card-description">
-                <p>Lorem ipsum dolor sit amet. Aut sint quia ad quidem veniam 33 rerum fuga sit quisquam omnis hic vero 
-                architecto. Rem illo necessitatibus est ipsa quae in earum iusto et ratione voluptas.</p>
+                <p>{{smallCardDescrption}}</p>
             </div> 
         </div>
          

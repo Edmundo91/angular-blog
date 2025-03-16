@@ -1,29 +1,18 @@
 <div class="big-card"> 
 
 <div class="big-card-photo"> 
-<img src="https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1453460768/p/photo/image/1264226/02.jpg" alt="" height="250px" srcset="">
+<img src={{photoCover}} alt="" height="250px" srcset="">
 </div>
 
 
 <div class="big-card-title"> 
- <h1><a href="#"> Titulo para a Caixa</a></h1>
+ <h1><a [routerLink]="['/content', id]">{{cardTitle}}</a></h1>
 </div>
 
 
 
 <div class="big-card-description">
-<p>Lorem ipsum dolor sit amet. Aut sint quia ad quidem veniam 33 rerum fuga sit quisquam omnis hic vero 
-architecto. Rem illo necessitatibus est ipsa quae in earum iusto et ratione voluptas. Eos veniam 
-aliquid sed nemo neque ex quia repudiandae. Aut modi sint qui alias consequatur sit omnis nostrum aut ma
-gnam quam At autem repellat. Qui nesciunt aliquam id sint earum cum rerum Quis est culpa soluta non galisum 
-adipisci. Vel galisum dolorem sed officia eius et nulla unde. culpa repudiandae et unde sunt ut vo
-luptatem mollitia. Ea fuga ullam ut consectetur doloribus aut odio esse. Lorem ipsum dolor sit amet. Aut sint quia ad 
-quidem veniam 33 rerum fuga sit quisquam omnis hic vero architecto. Rem illo necessitatibus est ipsa quae in earum 
-iusto et ratione voluptas. Eos veniam aliquid sed nemo neque ex quia repudiandae. Aut modi sint qui alias consequatur 
-sit omnis nostrum aut ma gnam quam At autem repellat. Qui nesciunt aliquam id sint earum cum rerum Quis est culpa soluta 
-non galisum adipisci. Vel galisum dolorem sed officia eius et nulla unde. culpa repudiandae et unde sunt ut vo luptatem 
-mollitia. Ea fuga ullam ut consectetur doloribus aut odio esse.
-</p>
+<p>{{cardDescrption}}</p>
 </div>
 
 
